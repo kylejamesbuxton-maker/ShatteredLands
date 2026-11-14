@@ -1,4 +1,6 @@
-# Shattered Lands — A Viking Saga
+﻿# Shattered Lands — A Viking Saga
+
+*Viking saga war-city builder-map scroller.*
 
 A Viking-age campaign and 3D battle game in the Mount & Blade genre: England, 865, the Great Heathen Army. It began as
 a single-file browser game (three.js) and is being ported to **Unreal Engine 5.8**.

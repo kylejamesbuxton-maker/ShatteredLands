@@ -1,0 +1,7 @@
+﻿Reference image credits
+=======================
+gjermundbu_helmet_ntnu.jpg
+  "Hjelm av jern fra vikingtid fra Gjermundbu" - NTNU Vitenskapsmuseet
+  License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/)
+  Source: https://commons.wikimedia.org/wiki/File:Hjelm_av_jern_fra_vikingtid_fra_Gjermundbu.jpg
+  Used as a texture reference for the Gjermundbu helmet (Tripo Texture tool).

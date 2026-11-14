@@ -1,0 +1,99 @@
+﻿{
+    "FileVersion":  3,
+    "EngineAssociation":  "",
+    "Category":  "",
+    "Description":  "Shattered Lands - A Viking Saga",
+    "Plugins":  [
+                    {
+                        "Name":  "ModelingToolsEditorMode",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "GameplayStateTree",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "PythonScriptPlugin",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EditorScriptingUtilities",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Interchange",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "InterchangeEditor",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Water",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Volumetrics",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Soundscape",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Metasound",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "AudioModulation",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "HDRIBackdrop",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "MovieRenderPipeline",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Dataflow",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Takes",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "RigLogic",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "HairStrands",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "MetaHumanRuntime",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "LiveLink",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "LiveLinkControlRig",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "AlembicHairImporter",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "SequencerScripting",
+                        "Enabled":  true
+                    }
+                ]
+}

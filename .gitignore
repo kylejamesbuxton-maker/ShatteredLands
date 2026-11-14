@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------------------------------------------------
+# Shattered Lands: only original work is versioned here. Store / marketplace content (Fab, Quixel Megascans,
+# MetaHumans, Unity Asset Store packs, Tripo outputs) is licensed for use in the game but not for public
+# redistribution, so it stays local. See THIRD_PARTY.md for every pack and how to re-download it.
+# ---------------------------------------------------------------------------------------------------------------
+
+# --- Unreal: generated / per-machine folders
+Unreal/**/Binaries/
+Unreal/**/Intermediate/
+Unreal/**/Saved/
+Unreal/**/DerivedDataCache/
+Unreal/**/.vs/
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+
+# --- Unreal: downloaded Fab sample projects (Medieval Village Megascans Sample, MetaHumans)
+Unreal/Samples/
+Unreal/Samples_MetaHumans/
+
+# --- Unreal project content: keep only our own folder. Everything else in Content/ is either Epic template content
+#     (recreated by unreal_tools/setup_project.ps1 from the engine) or store content copied in from Fab samples.
+Unreal/ShatteredLands/Content/*
+!Unreal/ShatteredLands/Content/ShatteredLands/
+# ...and inside it, the store-derived assets
+Unreal/ShatteredLands/Content/ShatteredLands/Store/
+Unreal/ShatteredLands/Content/ShatteredLands/Characters/VikingTiers/
+
+# --- Blender / export outputs that embed Unity Asset Store meshes or textures
+models/viking_armor_tiers.blend
+models/fit_tests/
+unreal_export/Characters/VikingTiers/
+# Tripo free-tier outputs belong to Tripo
+models/tripo_download/
+
+# --- Unity Asset Store packs extracted for reference (and their preview renders)
+asset_library/unity/
+asset_library/previews/
+
+# --- Blender backups, OS and tool clutter
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+.claude/
+Thumbs.db
+desktop.ini
